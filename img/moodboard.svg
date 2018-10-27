@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1260px" height="831px" viewBox="0 0 1260 831" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>moodboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="2" width="1160" height="731"></rect>
+        <filter x="-5.1%" y="-10.5%" width="115.6%" height="124.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="31" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.556862745   0 0 0 0 0.611764706  0 0 0 0.274286685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Version-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Col:-80/40/10-Row:-20" transform="translate(-121.000000, -7067.000000)">
+            <g id="mood-board" transform="translate(139.000000, 7016.000000)">
+                <g id="moodboard" transform="translate(1.000000, 85.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="1161" height="733"></rect>
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#F9FAFB" fill-rule="nonzero" x="40" y="119" width="280" height="560"></rect>
+                    <rect id="Rectangle" fill="#9BF5EF" fill-rule="nonzero" x="360" y="119" width="280" height="260"></rect>
+                    <rect id="Rectangle" fill="#BCC1E3" fill-rule="nonzero" x="360" y="420" width="280" height="260"></rect>
+                    <rect id="Rectangle" fill="#BCC1E3" fill-rule="nonzero" x="720" y="579" width="400" height="100"></rect>
+                    <rect id="Rectangle" fill="#9BF5EF" fill-rule="nonzero" x="720" y="579" width="352" height="100"></rect>
+                    <rect id="Rectangle" fill="#F9FAFB" fill-rule="nonzero" x="680" y="579" width="276" height="100"></rect>
+                    <text id="Headline-1" font-family="HelveticaNeue, Helvetica Neue" font-size="56" font-weight="normal" fill="#878E9C">
+                        <tspan x="678" y="171">headline 1</tspan>
+                    </text>
+                    <text id="Headline-3" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#878E9C">
+                        <tspan x="678" y="203">headline 3</tspan>
+                    </text>
+                    <text id="When-most-people-thi" font-family="HelveticaNeue, Helvetica Neue" font-size="15" font-weight="normal" fill="#878E9C">
+                        <tspan x="678" y="239">When most people think of laser eye surgery, they automatically </tspan>
+                        <tspan x="678" y="256">think of LASIK. While it is true that LASIK is a type of laser eye </tspan>
+                        <tspan x="678" y="273">surgery, there are a number of other laser procedures that can </tspan>
+                        <tspan x="678" y="290">produce equally successful results for individuals suffering from </tspan>
+                        <tspan x="678" y="307">myopia (nearsightedness), hyperopia (farsightedness), and </tspan>
+                        <tspan x="678" y="324">astigmatism. In fact, there are actually four different types of </tspan>
+                        <tspan x="678" y="341">laser eye surgery: PRK, LASIK, Customized LASIK, and LASEK.</tspan>
+                        <tspan x="678" y="358"></tspan>
+                        <tspan x="678" y="375">PRK, or photorefractive keratectomy, makes use of a specialized </tspan>
+                        <tspan x="678" y="392">cool laser beam, called an excimer laser, to remove excess </tspan>
+                        <tspan x="678" y="409">corneal tissue. The removal of this tissue corrects the shape of </tspan>
+                        <tspan x="678" y="426">the eye so that light entering the eye can be properly focused on </tspan>
+                        <tspan x="678" y="443">the retina. The outer surface layer called the epithelium, is </tspan>
+                        <tspan x="678" y="460">removed to expose the underlying corneal tissue. Once this </tspan>
+                        <tspan x="678" y="477">tissue is revealed, the excimer laser is used to reshape the </tspan>
+                        <tspan x="678" y="494">cornea. The main distinction between PRK and LASIK is that </tspan>
+                        <tspan x="678" y="511">PRK does not make use of a corneal flap. Instead, the </tspan>
+                        <tspan x="678" y="528">epithelium is allowed to gradually heal through the body’s </tspan>
+                    </text>
+                    <text id="Mood-Board" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#878E9C">
+                        <tspan x="37" y="51">Mood Board</tspan>
+                    </text>
+                    <text id="Positivity,-Calm,-Co" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#878E9C">
+                        <tspan x="884.346" y="51">Positivity, Calm, Courage Happiness</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

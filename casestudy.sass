@@ -1,0 +1,57 @@
+*
+	color: #878E9C;
+	font-family: helveticaneue;
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+
+h1
+	font-family: helveticaneue;
+	@include pxRem(font-size, 84px);
+	font-weight: bold;
+
+h2
+	font-family: helveticaneue;
+	@include pxRem(font-size, 52px);
+
+h3
+	@include pxRem(font-size, 28px);
+
+h5
+	@include pxRem(font-size, 14px);
+	font-weight: bold
+
+h6
+	@include pxRem(font-size, 10px);
+
+.case__intro
+	@include pxRem(padding-top, 180px);
+
+.proposal
+	@include pxRem(padding-top, 180px);
+	@include pxRem(padding-bottom, 180px);
+	background-color: #B9F7F3;
+
+
+.exploration
+	@include pxRem(padding-top, 180px);
+	@include pxRem(padding-bottom, 180px);
+
+	&__section
+		@include pxRem(padding-top, 120px);
+		@include pxRem(padding-bottom, 120px);
+
+	&__info
+		@include pxRem(padding-bottom, 40px);
+
+	.wireframes
+		background-color: #F6F7F9;
+
+.mobile
+	@include pxRem(padding-top, 180px);
+	@include pxRem(padding-bottom, 180px);
+	background-color: #BCDFE5;

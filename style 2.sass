@@ -1,0 +1,42 @@
+*
+	font-family: Cormorant;
+
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+.header
+	p
+		@include pxRem(padding-top, 40px);
+		@include pxRem(padding-bottom, 40px);
+	@include pxRem(margin-bottom, 120px);
+h1
+	@include pxRem(font-size, 62px);
+	font-weight: 300;
+	@include pxRem(line-height, 80px);
+
+	span
+		@include pxRem(font-size, 124px);
+		color: #417505;
+h3
+	@include pxRem(font-size, 31px);
+p
+	@include pxRem(margin-bottom, 14px);
+	font-family: Arial;
+
+.hero
+	@include pxRem(margin-bottom, 300px);
+
+.works
+	hr
+		@include pxRem(margin-bottom, 160px);
+
+	@include pxRem(margin-top, 160px);
+	.work
+		@include pxRem(margin-bottom, 40px);
+		&__thumbnail
+			@include pxRem(height, 440px);
+			background: #B3C89B;

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1260px" height="2385px" viewBox="0 0 1260 2385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>designs system</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="560" height="722"></rect>
+        <filter x="-10.6%" y="-10.6%" width="132.3%" height="125.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="31" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.556862745   0 0 0 0 0.611764706  0 0 0 0.274286685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="560" height="258"></rect>
+        <filter x="-10.6%" y="-29.7%" width="132.3%" height="170.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="31" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.556862745   0 0 0 0 0.611764706  0 0 0 0.274286685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="0" width="1160" height="1470"></rect>
+        <filter x="-5.1%" y="-5.2%" width="115.6%" height="112.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="31" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.556862745   0 0 0 0 0.611764706  0 0 0 0.274286685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="560" height="418"></rect>
+        <filter x="-10.6%" y="-18.3%" width="132.3%" height="143.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="31" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.556862745   0 0 0 0 0.611764706  0 0 0 0.274286685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Version-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Col:-80/40/10-Row:-20" transform="translate(-121.000000, -8024.000000)">
+            <g id="design-system" transform="translate(140.000000, 7952.000000)">
+                <g id="designs-system" transform="translate(0.000000, 72.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="1173" height="2385"></rect>
+                    <g id="typography" transform="translate(0.000000, 58.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="Typography" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#878E9C">
+                            <tspan x="33" y="58">Typography</tspan>
+                        </text>
+                        <text id="Display" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="120" font-weight="normal" fill="#878E9C">
+                            <tspan x="33" y="178">Display</tspan>
+                        </text>
+                        <text id="Heading" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="60" font-weight="normal" fill="#878E9C">
+                            <tspan x="33" y="258">Heading</tspan>
+                        </text>
+                        <text id="Sub-Heading" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="30" font-weight="normal" fill="#878E9C">
+                            <tspan x="33" y="308">Sub Heading</tspan>
+                        </text>
+                        <text id="When-most-people-thi" mask="url(#mask-2)" font-family="HelveticaNeue, Helvetica Neue" font-size="15" font-weight="normal" fill="#878E9C">
+                            <tspan x="33" y="348">When most people think of laser eye surgery, they automatically think of </tspan>
+                            <tspan x="33" y="365">LASIK. While it is true that LASIK is a type of laser eye surgery, there are a </tspan>
+                            <tspan x="33" y="382">number of other laser procedures that can produce equally successful </tspan>
+                            <tspan x="33" y="399">results for individuals suffering from myopia (nearsightedness), hyperopia </tspan>
+                            <tspan x="33" y="416">(farsightedness), and astigmatism. In fact, there are actually four different </tspan>
+                            <tspan x="33" y="433">types of laser eye surgery: PRK, LASIK, Customized LASIK, and LASEK.</tspan>
+                            <tspan x="33" y="450"></tspan>
+                            <tspan x="33" y="467" font-size="10">PRK, or photorefractive keratectomy, makes use of a specialized cool laser beam, called an excimer laser, to </tspan>
+                            <tspan x="33" y="479" font-size="10">remove excess corneal tissue. The removal of this tissue corrects the shape of the eye so that light entering the </tspan>
+                            <tspan x="33" y="491" font-size="10">eye can be properly focused on the retina. The outer surface layer called the epithelium, is removed to expose </tspan>
+                            <tspan x="33" y="503" font-size="10">the underlying corneal tissue. Once this tissue is revealed, the excimer laser is used to reshape the cornea. The </tspan>
+                            <tspan x="33" y="515" font-size="10">main distinction between PRK and LASIK is that PRK does not make use of a corneal flap. Instead, the </tspan>
+                            <tspan x="33" y="527" font-size="10">epithelium is allowed to gradually heal through the body’s natural healing process. To protect the exposed </tspan>
+                            <tspan x="33" y="539" font-size="10">cornea, surgeons fit patients with a lightweight contact lens to serve as a bandage for the eye. The contact lens </tspan>
+                            <tspan x="33" y="551" font-size="10">also reduces discomfort. The lens is usually only worn for a few days, two to three days post-operative, at </tspan>
+                            <tspan x="33" y="563" font-size="10">which time the eye is allowed to heal as normal with no bandage. LASIK is the most widely known and </tspan>
+                            <tspan x="33" y="575" font-size="10">performed type of laser eye surgery in the United States. LASIK stands for Laser Assisted In-Situ </tspan>
+                            <tspan x="33" y="587" font-size="10">Keratomileusis, which literally means to “reshape the cornea from within using a laser.” LASIK differs from PRK </tspan>
+                            <tspan x="33" y="599" font-size="10">in that a small flap is made in the stroma of the eye. This flap, made by either a microkeratome or IntraLase, is </tspan>
+                            <tspan x="33" y="611" font-size="10">then peeled back to expose the underlying corneal tissue. An excimer laser is then used to reshape the cornea </tspan>
+                            <tspan x="33" y="623" font-size="10">to correct any refractive errors. Once the cornea has been reshaped, the cornea flap is put back into place and </tspan>
+                            <tspan x="33" y="635" font-size="10">smoothed out. The flap acts as a natural bandage to help the eye heal and protect the delicate cornea. The </tspan>
+                            <tspan x="33" y="647" font-size="10">benefit of LASIK is that the use of the flap helps the cornea heals more quickly than it would using the PRK </tspan>
+                            <tspan x="33" y="659" font-size="10">technique, and reduces much of the discomfort felt during the healing process. Many ophthalmologic surgeons </tspan>
+                            <tspan x="33" y="671" font-size="10">are now offered the next evolution in LASIK surgery, which they called Customized LASIK. The general </tspan>
+                            <tspan x="33" y="683" font-size="10">procedure used to correct refractive errors is the same as is used for traditional LASIK procedures, with the</tspan>
+                        </text>
+                    </g>
+                    <g id="color" transform="translate(600.000000, 58.000000)">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#BCC1E3" fill-rule="nonzero" x="30" y="79" width="500" height="140"></rect>
+                        <rect id="Rectangle" fill="#9BF5EF" fill-rule="nonzero" x="30" y="79" width="453" height="140"></rect>
+                        <rect id="Rectangle" fill="#F9FAFB" fill-rule="nonzero" x="30" y="79" width="333" height="140"></rect>
+                        <text id="Color" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#878E9C">
+                            <tspan x="30" y="58">Color</tspan>
+                        </text>
+                    </g>
+                    <g id="grid-system" transform="translate(0.000000, 834.000000)">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-6"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-6"></use>
+                        </g>
+                        <text id="Responsive-Grid" mask="url(#mask-7)" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#878E9C">
+                            <tspan x="45" y="82">Responsive Grid</tspan>
+                        </text>
+                        <g id="grid" mask="url(#mask-7)">
+                            <g transform="translate(25.000000, 132.000000)" id="Rectangle">
+                                <rect fill="#E7E8EB" fill-rule="evenodd" x="0" y="0" width="1110" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="31" y="0" width="60" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="120" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="90" y="0" width="30" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="179" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="209" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="268" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="298" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="357" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="387" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="446" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="476" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="535" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="565" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="624" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="654" y="0" width="60" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="743" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="802" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="832" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="891" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="921" y="0" width="60" height="640"></rect>
+                                <rect fill="none" opacity="0.200000003" x="980" y="0" width="30" height="640"></rect>
+                                <rect fill="#D3D5DB" fill-rule="evenodd" x="1010" y="0" width="60" height="640"></rect>
+                            </g>
+                        </g>
+                        <g id="grid" mask="url(#mask-7)">
+                            <g transform="translate(25.000000, 741.000000)" id="Rectangle">
+                                <rect fill="#E7E8EB" x="0" y="60" width="320" height="640"></rect>
+                                <rect fill="#D3D5DB" x="19" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="119" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="219" y="60" width="80" height="640"></rect>
+                            </g>
+                        </g>
+                        <g id="grid" mask="url(#mask-7)">
+                            <g transform="translate(378.000000, 741.000000)" id="Rectangle">
+                                <rect fill="#E7E8EB" x="0" y="60" width="760" height="640"></rect>
+                                <rect fill="#D3D5DB" x="39" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="159" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="279" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="399" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="519" y="60" width="80" height="640"></rect>
+                                <rect fill="#D3D5DB" x="639" y="60" width="80" height="640"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="color" transform="translate(600.000000, 356.000000)">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-9"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#9BF5EF" fill-rule="nonzero" x="40" y="85.0703518" width="220" height="52.5125628"></rect>
+                        <rect id="Rectangle" fill="#9BF5EF" fill-rule="nonzero" x="290" y="85.0703518" width="220" height="52.5125628"></rect>
+                        <rect id="Rectangle" fill="#BCC1E3" fill-rule="nonzero" x="40" y="158.58794" width="220" height="42.0100503"></rect>
+                        <rect id="Rectangle" stroke="#979797" opacity="0.400000006" fill-rule="nonzero" x="40.5" y="232.605528" width="469" height="51.5125628"></rect>
+                        <rect id="Rectangle" stroke="#979797" opacity="0.400000006" fill-rule="nonzero" x="40.5" y="306.123116" width="469" height="51.5125628"></rect>
+                        <rect id="Rectangle" fill="#BCC1E3" fill-rule="nonzero" x="290" y="158.58794" width="220" height="42.0100503"></rect>
+                        <text id="UI-Components" font-family="HelveticaNeue, Helvetica Neue" font-size="20" font-weight="normal" fill="#878E9C">
+                            <tspan x="40" y="60.5376884">UI Components</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

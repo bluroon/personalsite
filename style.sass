@@ -1,0 +1,61 @@
+*
+	font-family: Cormorant;
+
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+
+h1
+	font-size: 3.75rem;
+
+.navbar-brand
+	font-family: TakeEasy;
+	font-weight: 100;
+
+.hero
+	padding-top: 16.25rem;
+	padding-bottom: 16.25rem;
+
+
+.answers
+	.answer
+		&__title
+			font-size: 2.625rem;
+		&__details
+			padding-bottom: 3.125rem;
+		&__hr
+			padding-bottom: 100px;
+
+
+h1
+	span
+		font-family: TakeEasy;
+		font-weight: 300;
+
+
+.intro
+	@include pxRem(padding-top, 240px);
+	@include pxRem(padding-bottom, 280px);
+
+.works
+	&__title
+		font-family: TakeEasy;
+		font-size: 84px;
+		font-weight: 100;
+		margin-top: 10rem;
+		@include pxRem(padding-bottom, 60px);
+
+	.work
+		@include pxRem(height, 400px);
+		background: #CCCCCC;
+		@include pxRem(margin-bottom, 20px);
+
+.case__intro
+	height: 120%;
+	background-image: url(https://lstore.graphics/presentationkit/images/Layer2-mb-3.jpg);
+	background-position: right top
+	background-attachment: fixed
