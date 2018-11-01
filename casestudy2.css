@@ -1,0 +1,26 @@
+* {
+  color: #000;
+  font-family: helveticaneue; }
+
+h1 {
+  font-size: 78px;
+  font-size: 4.875rem; }
+
+.shadow {
+  background: #FFFFFF;
+  -webkit-box-shadow: 60px 61px 109px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 60px 61px 109px 0 rgba(0, 0, 0, 0.2); }
+
+.section {
+  padding-top: 80px;
+  padding-top: 5rem;
+  padding-bottom: 80px;
+  padding-bottom: 5rem; }
+
+.title {
+  padding-bottom: 80px;
+  padding-bottom: 5rem; }
+
+.solution img {
+  margin-bottom: 80px;
+  margin-bottom: 5rem; }
