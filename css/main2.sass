@@ -1,15 +1,17 @@
 *
 	font-family: 'EB Garamond', serif;
 	//color: #273F49;
-	color: #000;
+	color: #2B3B3B;
 	font-weight: 100;
 	//background: #EFF0E2;
 
 a
-	color: #273F49;
+	color: #2B3B3B;
 
 	&:hover
-		color: red;
+		color: #273F49;
+		text-decoration: none;
+		opacity: 0.5;
 
 body
 	background: #EFF0E2;
@@ -61,14 +63,25 @@ p, ul, ol, li
 .header
 	@include pxRem(padding-top, 40px);
 
-nav
-	width: 100%;
-	border-bottom: 4px solid #ABA689;
+
+.navigation
+	background: #fff;
+	@include pxRem(padding-bottom, 20px);
+	@include pxRem(padding-top, 40px);
+
+
 	a
-		color: #ABA689;
+		color: #857B38;
 	h4,i
-		color: #ABA689
+		color: #857B38
 		text-align: center
+		@include pxRem(font-size, 30px);
+	.hire
+		text-align: right
+	.navbar-brand, h4,i
+		text-align: center
+		color: #857B38
+
 
 .hero
 	@include pxRem(padding-top, 200px);
@@ -76,7 +89,14 @@ nav
 	.copy
 		@include pxRem(padding-bottom, 180px);
 
+	h4
+		opacity: 0.3
+	h3
+		opacity: 0.6
 
+	.btnHire
+		&:hover
+			opacity: 0.5;
 
 .content
 	.title
@@ -90,6 +110,30 @@ nav
 
 	.title
 		@include pxRem(padding-bottom, 280px);
+
+.view-article
+
+	.title
+		background-color: #5B3169;
+		@include pxRem(padding-bottom, 240px);
+		h1,h3,h4,i
+			font-style: italic;
+			color: #fff
+
+	.content
+		@include pxRem(padding-top, 240px);
+
+
+	.copy
+		@include pxRem(padding-top, 160px);
+		p
+			@include pxRem(font-size, 30px);
+		span
+			font-size: 118px;
+			line-height: 0
+
+	.section
+		@include pxRem(margin-bottom, 80px);
 
 
 .works
@@ -106,39 +150,43 @@ nav
 			@include pxRem(padding-bottom, 80px);
 
 	.reachout
-		background-image: url('img/background-reachout-lg.jpg');
+		background-image: url('../img/background-reachout-lg.jpg');
 		background-size: cover;
 	.medcil
-		background-image: url('img/background-medcil-lg.jpg');
+		background-image: url('../img/background-medcil-lg.jpg');
 		background-size: cover;
 	.zemedy
-		background-image: url('img/background-zemedy-lg.jpg');
+		background-image: url('../img/background-zemedy-lg.jpg');
 		background-size: cover;
 
-
-//article page
-
-.view-article
-	.header
-		border-bottom: #72736C 4px solid;
-	.title
-		background-color: #8F9087;
-		@include pxRem(padding-bottom, 160px);
-		h1
-			color: #EFF0E2;
-			font-style: italic;
-
-	.content
-		@include pxRem(padding-top, 160px);
+.footer
+	@include pxRem(padding-top, 20px);
+	@include pxRem(padding-bottom, 20px);
+	.social
+		text-align: right
 
 
-	.copy
-		@include pxRem(padding-top, 160px);
-		p
-			@include pxRem(font-size, 30px);
-		span
-			font-size: 118px;
-			line-height: 0
+@media screen and (min-width: 320px) and (max-width: 768px)
 
-	.section
-		@include pxRem(margin-bottom, 80px);
+	.hero
+		@include pxRem(padding-top, 120px);	
+
+	h1
+		@include pxRem(font-size, 59px);
+		@include pxRem(letter-spacing, -1.5px);
+
+	h2
+		@include pxRem(font-size, 41px);
+		@include pxRem(letter-spacing, -2.5px);
+
+	h3
+		@include pxRem(font-size, 29px);
+
+	h4
+		@include pxRem(font-size, 20px);
+	h5
+		@include pxRem(font-size, 15px);
+
+	p, ul, ol, li
+		@include pxRem(font-size, 20px);
+		font-family: 'EB Garamond', serif;

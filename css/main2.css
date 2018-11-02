@@ -1,12 +1,14 @@
 * {
   font-family: 'EB Garamond', serif;
-  color: #000;
+  color: #2B3B3B;
   font-weight: 100; }
 
 a {
-  color: #273F49; }
+  color: #2B3B3B; }
   a:hover {
-    color: red; }
+    color: #273F49;
+    text-decoration: none;
+    opacity: 0.5; }
 
 body {
   background: #EFF0E2; }
@@ -52,14 +54,24 @@ p, ul, ol, li {
   padding-top: 40px;
   padding-top: 2.5rem; }
 
-nav {
-  width: 100%;
-  border-bottom: 4px solid #ABA689; }
-  nav a {
-    color: #ABA689; }
-  nav h4, nav i {
-    color: #ABA689;
-    text-align: center; }
+.navigation {
+  background: #fff;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+  padding-top: 40px;
+  padding-top: 2.5rem; }
+  .navigation a {
+    color: #857B38; }
+  .navigation h4, .navigation i {
+    color: #857B38;
+    text-align: center;
+    font-size: 30px;
+    font-size: 1.875rem; }
+  .navigation .hire {
+    text-align: right; }
+  .navigation .navbar-brand, .navigation h4, .navigation i {
+    text-align: center;
+    color: #857B38; }
 
 .hero {
   padding-top: 200px;
@@ -68,6 +80,12 @@ nav {
   .hero .copy {
     padding-bottom: 180px;
     padding-bottom: 11.25rem; }
+  .hero h4 {
+    opacity: 0.3; }
+  .hero h3 {
+    opacity: 0.6; }
+  .hero .btnHire:hover {
+    opacity: 0.5; }
 
 .content .title {
   margin-top: 160px;
@@ -85,43 +103,17 @@ nav {
     padding-bottom: 280px;
     padding-bottom: 17.5rem; }
 
-.works {
-  margin-top: 160px;
-  margin-top: 10rem; }
-  .works .work {
-    background: black; }
-    .works .work h1, .works .work h5 {
-      color: #fff;
-      font-style: italic; }
-    .works .work .title {
-      padding-top: 80px;
-      padding-top: 5rem;
-      padding-bottom: 80px;
-      padding-bottom: 5rem; }
-  .works .reachout {
-    background-image: url("img/background-reachout-lg.jpg");
-    background-size: cover; }
-  .works .medcil {
-    background-image: url("img/background-medcil-lg.jpg");
-    background-size: cover; }
-  .works .zemedy {
-    background-image: url("img/background-zemedy-lg.jpg");
-    background-size: cover; }
-
-.view-article .header {
-  border-bottom: #72736C 4px solid; }
-
 .view-article .title {
-  background-color: #8F9087;
-  padding-bottom: 160px;
-  padding-bottom: 10rem; }
-  .view-article .title h1 {
-    color: #EFF0E2;
-    font-style: italic; }
+  background-color: #5B3169;
+  padding-bottom: 240px;
+  padding-bottom: 15rem; }
+  .view-article .title h1, .view-article .title h3, .view-article .title h4, .view-article .title i {
+    font-style: italic;
+    color: #fff; }
 
 .view-article .content {
-  padding-top: 160px;
-  padding-top: 10rem; }
+  padding-top: 240px;
+  padding-top: 15rem; }
 
 .view-article .copy {
   padding-top: 160px;
@@ -136,3 +128,62 @@ nav {
 .view-article .section {
   margin-bottom: 80px;
   margin-bottom: 5rem; }
+
+.works {
+  margin-top: 160px;
+  margin-top: 10rem; }
+  .works .work {
+    background: black; }
+    .works .work h1, .works .work h5 {
+      color: #fff;
+      font-style: italic; }
+    .works .work .title {
+      padding-top: 80px;
+      padding-top: 5rem;
+      padding-bottom: 80px;
+      padding-bottom: 5rem; }
+  .works .reachout {
+    background-image: url("../img/background-reachout-lg.jpg");
+    background-size: cover; }
+  .works .medcil {
+    background-image: url("../img/background-medcil-lg.jpg");
+    background-size: cover; }
+  .works .zemedy {
+    background-image: url("../img/background-zemedy-lg.jpg");
+    background-size: cover; }
+
+.footer {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem; }
+  .footer .social {
+    text-align: right; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hero {
+    padding-top: 120px;
+    padding-top: 7.5rem; }
+  h1 {
+    font-size: 59px;
+    font-size: 3.6875rem;
+    letter-spacing: -1.5px;
+    letter-spacing: -0.09375rem; }
+  h2 {
+    font-size: 41px;
+    font-size: 2.5625rem;
+    letter-spacing: -2.5px;
+    letter-spacing: -0.15625rem; }
+  h3 {
+    font-size: 29px;
+    font-size: 1.8125rem; }
+  h4 {
+    font-size: 20px;
+    font-size: 1.25rem; }
+  h5 {
+    font-size: 15px;
+    font-size: 0.9375rem; }
+  p, ul, ol, li {
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-family: 'EB Garamond', serif; } }
