@@ -164,6 +164,9 @@ p, ul, ol, li {
   .navigation .navbar-brand, .navigation h4, .navigation i {
     font-size: 20px;
     font-size: 1.25rem; }
+  .navigation .hire {
+    font-size: 14px;
+    font-size: 0.875rem; }
   .hero {
     padding-top: 120px;
     padding-top: 7.5rem; }
