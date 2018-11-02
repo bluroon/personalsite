@@ -1,0 +1,144 @@
+*
+	font-family: 'EB Garamond', serif;
+	//color: #273F49;
+	color: #000;
+	font-weight: 100;
+	//background: #EFF0E2;
+
+a
+	color: #273F49;
+
+	&:hover
+		color: red;
+
+body
+	background: #EFF0E2;
+
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+
+i
+	font-style: italic;
+	font-family: 'EB Garamond', serif;
+
+h1,h2,h3,h4,h5
+	font-family: 'EB Garamond', serif;
+	font-weight: 100;
+h1
+	@include pxRem(font-size, 118px);
+	@include pxRem(letter-spacing, -1.5px);
+
+h2
+	@include pxRem(font-size, 83px);
+	@include pxRem(letter-spacing, -2.5px);
+
+h3
+	@include pxRem(font-size, 59px);
+
+h4
+	@include pxRem(font-size, 30px);
+h5
+	@include pxRem(font-size, 15px);
+
+p, ul, ol, li
+	@include pxRem(font-size, 20px);
+	font-family: 'EB Garamond', serif;
+
+
+// .header
+// 	border-bottom: 4px solid #ABA689;
+// 	@include pxRem(padding-top, 40px);
+// 	hr
+// 		background-color: #ABA689;
+// 		height: 4px;
+// 		border: none;
+
+.header
+	@include pxRem(padding-top, 40px);
+
+nav
+	width: 100%;
+	border-bottom: 4px solid #ABA689;
+	a
+		color: #ABA689;
+	h4,i
+		color: #ABA689
+		text-align: center
+
+.hero
+	@include pxRem(padding-top, 200px);
+	text-align: center
+	.copy
+		@include pxRem(padding-bottom, 180px);
+
+
+
+.content
+	.title
+		@include pxRem(margin-top, 160px);
+		@include pxRem(margin-bottom, 80px);
+
+.article
+	@include pxRem(padding-top, 160px);
+	@include pxRem(padding-bottom, 160px);
+	border-bottom: 1px solid #ABA689;
+
+	.title
+		@include pxRem(padding-bottom, 280px);
+
+
+.works
+	@include pxRem(margin-top, 160px);
+	.work
+		background: black;
+		//@include pxRem(padding-bottom, 320px);
+		h1, h5
+			color: #fff;
+			font-style: italic;
+
+		.title
+			@include pxRem(padding-top, 80px);
+			@include pxRem(padding-bottom, 80px);
+
+	.reachout
+		background-image: url('img/background-reachout-lg.jpg');
+		background-size: cover;
+	.medcil
+		background-image: url('img/background-medcil-lg.jpg');
+		background-size: cover;
+	.zemedy
+		background-image: url('img/background-zemedy-lg.jpg');
+		background-size: cover;
+
+
+//article page
+
+.view-article
+	.header
+		border-bottom: #72736C 4px solid;
+	.title
+		background-color: #8F9087;
+		@include pxRem(padding-bottom, 160px);
+		h1
+			color: #EFF0E2;
+			font-style: italic;
+
+	.content
+		@include pxRem(padding-top, 160px);
+
+
+	.copy
+		@include pxRem(padding-top, 160px);
+		p
+			@include pxRem(font-size, 30px);
+		span
+			font-size: 118px;
+			line-height: 0
+
+	.section
+		@include pxRem(margin-bottom, 80px);

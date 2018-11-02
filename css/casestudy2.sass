@@ -1,0 +1,37 @@
+*
+	color: #000;
+	font-family: helveticaneue;
+	font-size: 14px;
+
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+
+h1
+	@include pxRem(font-size, 78px)
+.shadow
+	background: #FFFFFF;
+	box-shadow: 60px 61px 109px 0 rgba(0,0,0,0.20);
+
+h2
+	@include pxRem(font-size, 55.5px)
+
+h4
+	@include pxRem(font-size, 20px)
+
+
+.section
+	@include pxRem(padding-top, 80px)
+	@include pxRem(padding-bottom, 80px)
+
+
+.title
+	@include pxRem(padding-bottom, 80px)
+
+.solution
+	img
+		@include pxRem(margin-bottom, 80px)

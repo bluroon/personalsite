@@ -1,0 +1,55 @@
+*
+	font-family: Cormorant;
+
+@function calculateRem($size)
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+
+@mixin pxRem($attr, $size)
+  #{$attr}: $size;
+  #{$attr}: calculateRem($size);
+
+h1
+	font-size: 3.75rem;
+	font-weight: 700;
+
+
+.hero
+	padding-top: 16.25rem;
+	padding-bottom: 16.25rem;
+
+
+.answers
+	.answer
+		&__title
+			font-size: 2.625rem;
+		&__details
+			padding-bottom: 3.125rem;
+		&__hr
+			padding-bottom: 100px;
+
+
+h1
+	span
+		font-family: TakeEasy;
+		font-weight: 300;
+
+
+.intro
+	background: #FAECEC;
+	padding-top: 8.75rem;
+	padding-bottom: 8.75rem;
+	color: #D65253;
+
+.works
+	&__title
+		font-family: TakeEasy;
+		font-size: 84px;
+		font-weight: 100;
+		margin-top: 10rem;
+		@include pxRem(padding-bottom, 60px);
+
+	.work
+		@include pxRem(height, 360px);
+		background: #CCCCCC;
+		@include pxRem(margin-bottom, 20px);

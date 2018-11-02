@@ -1,0 +1,53 @@
+* {
+  font-family: Cormorant; }
+
+h1 {
+  font-size: 3.75rem; }
+
+.navbar-brand {
+  font-family: TakeEasy;
+  font-weight: 100; }
+
+.hero {
+  padding-top: 16.25rem;
+  padding-bottom: 16.25rem; }
+
+.answers .answer__title {
+  font-size: 2.625rem; }
+
+.answers .answer__details {
+  padding-bottom: 3.125rem; }
+
+.answers .answer__hr {
+  padding-bottom: 100px; }
+
+h1 span {
+  font-family: TakeEasy;
+  font-weight: 300; }
+
+.intro {
+  padding-top: 240px;
+  padding-top: 15rem;
+  padding-bottom: 280px;
+  padding-bottom: 17.5rem; }
+
+.works__title {
+  font-family: TakeEasy;
+  font-size: 84px;
+  font-weight: 100;
+  margin-top: 10rem;
+  padding-bottom: 60px;
+  padding-bottom: 3.75rem; }
+
+.works .work {
+  height: 400px;
+  height: 25rem;
+  background: #CCCCCC;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem; }
+
+.case__intro {
+  height: 120%;
+  background-image: url(https://lstore.graphics/presentationkit/images/Layer2-mb-3.jpg);
+  background-position: right top;
+  background-attachment: fixed; }

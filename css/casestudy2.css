@@ -1,0 +1,35 @@
+* {
+  color: #000;
+  font-family: helveticaneue;
+  font-size: 14px; }
+
+h1 {
+  font-size: 78px;
+  font-size: 4.875rem; }
+
+.shadow {
+  background: #FFFFFF;
+  -webkit-box-shadow: 60px 61px 109px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 60px 61px 109px 0 rgba(0, 0, 0, 0.2); }
+
+h2 {
+  font-size: 55.5px;
+  font-size: 3.46875rem; }
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.section {
+  padding-top: 80px;
+  padding-top: 5rem;
+  padding-bottom: 80px;
+  padding-bottom: 5rem; }
+
+.title {
+  padding-bottom: 80px;
+  padding-bottom: 5rem; }
+
+.solution img {
+  margin-bottom: 80px;
+  margin-bottom: 5rem; }
