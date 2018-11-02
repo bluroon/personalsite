@@ -83,6 +83,7 @@ p, ul, ol, li
 		color: #857B38
 
 
+
 .hero
 	@include pxRem(padding-top, 200px);
 	text-align: center
@@ -167,9 +168,14 @@ p, ul, ol, li
 
 
 @media screen and (min-width: 320px) and (max-width: 768px)
+	.navigation
+		.navbar-brand, h4,i
+			@include pxRem(font-size, 20px);
+		.hire
+			@include pxRem(font-size, 14px);
 
 	.hero
-		@include pxRem(padding-top, 120px);	
+		@include pxRem(padding-top, 120px);
 
 	h1
 		@include pxRem(font-size, 59px);
