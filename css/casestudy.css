@@ -40,8 +40,8 @@ h5 {
   font-size: 0.9375rem; }
 
 p, ul, ol, li {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 21px;
+  font-size: 1.3125rem;
   font-family: 'EB Garamond', serif; }
 
 .navigation {
@@ -104,6 +104,14 @@ p, ul, ol, li {
   .works .bold {
     background-image: url("../img/background-bold-lg.jpg");
     background-size: cover; }
+
+.footer {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem; }
+  .footer .social {
+    text-align: right; }
 
 body {
   background-color: white; }

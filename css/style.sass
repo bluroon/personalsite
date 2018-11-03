@@ -38,7 +38,7 @@ h4
 h5
 	@include pxRem(font-size, 15px);
 p, ul, ol, li
-	@include pxRem(font-size, 20px);
+	@include pxRem(font-size, 21px);
 	font-family: 'EB Garamond', serif;
 
 
@@ -108,3 +108,9 @@ p, ul, ol, li
 	.bold
 		background-image: url('../img/background-bold-lg.jpg');
 		background-size: cover;
+
+.footer
+	@include pxRem(padding-top, 20px);
+	@include pxRem(padding-bottom, 20px);
+	.social
+		text-align: right

@@ -1,9 +1,40 @@
-@import main.sass
+@import style.sass
+
+
+.copy
+	p, ol, ul, li
+		@include pxRem(font-size, 21px);
+		@include pxRem(line-height, 42px);
+		font-family: 'EB Garamond', serif;
+
 
 body
 	background-color: #DAE0D3;
 
 //article page
+
+
+.view-article
+
+	.title
+		background-color: #5B3169;
+		@include pxRem(padding-bottom, 240px);
+		h1,h3,h4,i
+			font-style: italic;
+			color: #fff
+
+	.content
+		@include pxRem(padding-top, 240px);
+
+
+	.copy
+		@include pxRem(padding-top, 160px);
+		span
+			font-size: 118px;
+			line-height: 0
+
+	.section
+		@include pxRem(margin-bottom, 80px);
 
 @media screen and (min-width: 320px) and (max-width: 768px)
 	.view-article
