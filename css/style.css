@@ -1,53 +1,106 @@
 * {
-  font-family: Cormorant; }
-
-h1 {
-  font-size: 3.75rem; }
-
-.navbar-brand {
-  font-family: TakeEasy;
+  font-family: 'EB Garamond', serif;
+  color: #000;
   font-weight: 100; }
 
-.hero {
-  padding-top: 16.25rem;
-  padding-bottom: 16.25rem; }
+body {
+  background: #EFF0E2; }
 
-.answers .answer__title {
-  font-size: 2.625rem; }
+i {
+  font-style: italic;
+  font-family: 'EB Garamond', serif; }
 
-.answers .answer__details {
-  padding-bottom: 3.125rem; }
-
-.answers .answer__hr {
-  padding-bottom: 100px; }
-
-h1 span {
-  font-family: TakeEasy;
-  font-weight: 300; }
-
-.intro {
-  padding-top: 240px;
-  padding-top: 15rem;
-  padding-bottom: 280px;
-  padding-bottom: 17.5rem; }
-
-.works__title {
-  font-family: TakeEasy;
-  font-size: 84px;
+h1, h2, h3, h4, h5, a {
+  font-family: 'EB Garamond', serif;
   font-weight: 100;
-  margin-top: 10rem;
-  padding-bottom: 60px;
-  padding-bottom: 3.75rem; }
+  color: #000; }
 
-.works .work {
-  height: 400px;
-  height: 25rem;
-  background: #CCCCCC;
-  margin-bottom: 20px;
-  margin-bottom: 1.25rem; }
+h1 {
+  font-size: 118px;
+  font-size: 7.375rem;
+  letter-spacing: -1.5px;
+  letter-spacing: -0.09375rem; }
 
-.case__intro {
-  height: 120%;
-  background-image: url(https://lstore.graphics/presentationkit/images/Layer2-mb-3.jpg);
-  background-position: right top;
-  background-attachment: fixed; }
+h2 {
+  font-size: 83px;
+  font-size: 5.1875rem;
+  letter-spacing: -2.5px;
+  letter-spacing: -0.15625rem; }
+
+h3 {
+  font-size: 59px;
+  font-size: 3.6875rem; }
+
+h4 {
+  font-size: 30px;
+  font-size: 1.875rem; }
+
+h5 {
+  font-size: 15px;
+  font-size: 0.9375rem; }
+
+p, ul, ol, li {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-family: 'EB Garamond', serif; }
+
+.navigation {
+  background: #fff;
+  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
+  padding-top: 10px;
+  padding-top: 0.625rem; }
+  .navigation h1, .navigation h4, .navigation i {
+    color: #857B38;
+    text-align: center;
+    font-size: 30px;
+    font-size: 1.875rem; }
+  .navigation .hire {
+    text-align: right; }
+  .navigation .navbar-brand, .navigation h4, .navigation i {
+    text-align: center;
+    color: #857B38; }
+
+.hero {
+  padding-top: 200px;
+  padding-top: 12.5rem;
+  text-align: center; }
+  .hero .copy {
+    padding-bottom: 180px;
+    padding-bottom: 11.25rem; }
+  .hero h4 {
+    opacity: 0.3; }
+  .hero h3 {
+    opacity: 0.6; }
+  .hero i {
+    border-bottom: 4px solid #729144; }
+  .hero .btnHire:hover {
+    opacity: 0.5; }
+
+.works {
+  margin-top: 160px;
+  margin-top: 10rem; }
+  .works .work {
+    background: black; }
+    .works .work h2, .works .work h5, .works .work a {
+      color: #fff;
+      font-style: italic; }
+    .works .work .title {
+      padding-top: 80px;
+      padding-top: 5rem;
+      padding-bottom: 80px;
+      padding-bottom: 5rem; }
+  .works .reachout {
+    background-image: url("../img/background-reachout-lg.jpg");
+    background-size: cover; }
+    .works .reachout a {
+      color: #fff; }
+  .works .medcil {
+    background-image: url("../img/background-medcil-lg.jpg");
+    background-size: cover; }
+  .works .zemedy {
+    background-image: url("../img/background-zemedy-lg.jpg");
+    background-size: cover; }
+  .works .bold {
+    background-image: url("../img/background-bold-lg.jpg");
+    background-size: cover; }

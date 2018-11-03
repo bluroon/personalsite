@@ -1,5 +1,12 @@
 *
-	font-family: Cormorant;
+	font-family: 'EB Garamond', serif;
+	//color: #273F49;
+	color: #000;
+	font-weight: 100;
+	//background: #EFF0E2;
+
+body
+	background: #EFF0E2;
 
 @function calculateRem($size)
   $remSize: $size / 16px;
@@ -9,53 +16,95 @@
   #{$attr}: $size;
   #{$attr}: calculateRem($size);
 
-h1
-	font-size: 3.75rem;
+i
+	font-style: italic;
+	font-family: 'EB Garamond', serif;
 
-.navbar-brand
-	font-family: TakeEasy;
+h1,h2,h3,h4,h5, a
+	font-family: 'EB Garamond', serif;
 	font-weight: 100;
+	color: #000;
+
+h1
+	@include pxRem(font-size, 118px);
+	@include pxRem(letter-spacing, -1.5px);
+h2
+	@include pxRem(font-size, 83px);
+	@include pxRem(letter-spacing, -2.5px);
+h3
+	@include pxRem(font-size, 59px);
+h4
+	@include pxRem(font-size, 30px);
+h5
+	@include pxRem(font-size, 15px);
+p, ul, ol, li
+	@include pxRem(font-size, 20px);
+	font-family: 'EB Garamond', serif;
+
+
+.navigation
+	background: #fff;
+	@include pxRem(padding-bottom, 10px);
+	@include pxRem(padding-top, 10px);
+
+
+	h1, h4,i
+		color: #857B38
+		text-align: center
+		@include pxRem(font-size, 30px);
+	.hire
+		text-align: right
+	.navbar-brand, h4,i
+		text-align: center
+		color: #857B38
 
 .hero
-	padding-top: 16.25rem;
-	padding-bottom: 16.25rem;
+	@include pxRem(padding-top, 200px);
+	text-align: center
+
+	.copy
+		@include pxRem(padding-bottom, 180px);
+
+	h4
+		opacity: 0.3
+	h3
+		opacity: 0.6
+
+	i
+		border-bottom: 4px solid #729144;
+
+	.btnHire
+		&:hover
+			opacity: 0.5;
 
 
-.answers
-	.answer
-		&__title
-			font-size: 2.625rem;
-		&__details
-			padding-bottom: 3.125rem;
-		&__hr
-			padding-bottom: 100px;
-
-
-h1
-	span
-		font-family: TakeEasy;
-		font-weight: 300;
-
-
-.intro
-	@include pxRem(padding-top, 240px);
-	@include pxRem(padding-bottom, 280px);
 
 .works
-	&__title
-		font-family: TakeEasy;
-		font-size: 84px;
-		font-weight: 100;
-		margin-top: 10rem;
-		@include pxRem(padding-bottom, 60px);
+	@include pxRem(margin-top, 160px);
 
 	.work
-		@include pxRem(height, 400px);
-		background: #CCCCCC;
-		@include pxRem(margin-bottom, 20px);
+		background: black;
+		//@include pxRem(padding-bottom, 320px);
+		h2, h5, a
+			color: #fff;
+			font-style: italic;
 
-.case__intro
-	height: 120%;
-	background-image: url(https://lstore.graphics/presentationkit/images/Layer2-mb-3.jpg);
-	background-position: right top
-	background-attachment: fixed
+		.title
+			@include pxRem(padding-top, 80px);
+			@include pxRem(padding-bottom, 80px);
+
+	.reachout
+		a
+			color: #fff;
+
+		background-image: url('../img/background-reachout-lg.jpg');
+		background-size: cover;
+	.medcil
+		background-image: url('../img/background-medcil-lg.jpg');
+		background-size: cover;
+	.zemedy
+		background-image: url('../img/background-zemedy-lg.jpg');
+		background-size: cover;
+	.bold
+		background-image: url('../img/background-bold-lg.jpg');
+		background-size: cover;

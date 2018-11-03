@@ -6,7 +6,7 @@
 	//background: #EFF0E2;
 
 a
-	color: #2B3B3B;
+	color: #fff;
 
 	&:hover
 		color: #273F49;
@@ -51,28 +51,17 @@ p, ul, ol, li
 	@include pxRem(font-size, 20px);
 	font-family: 'EB Garamond', serif;
 
-
-// .header
-// 	border-bottom: 4px solid #ABA689;
-// 	@include pxRem(padding-top, 40px);
-// 	hr
-// 		background-color: #ABA689;
-// 		height: 4px;
-// 		border: none;
-
 .header
-	@include pxRem(padding-top, 40px);
+	@include pxRem(padding-top, 20px);
 
 
 .navigation
 	background: #fff;
 	@include pxRem(padding-bottom, 20px);
-	@include pxRem(padding-top, 40px);
+	@include pxRem(padding-top, 20px);
 
 
-	a
-		color: #857B38;
-	h4,i
+	h1, h4,i
 		color: #857B38
 		text-align: center
 		@include pxRem(font-size, 30px);
@@ -82,11 +71,13 @@ p, ul, ol, li
 		text-align: center
 		color: #857B38
 
-
+	a
+		font-style: italic
 
 .hero
 	@include pxRem(padding-top, 200px);
 	text-align: center
+
 	.copy
 		@include pxRem(padding-bottom, 180px);
 
@@ -94,6 +85,9 @@ p, ul, ol, li
 		opacity: 0.3
 	h3
 		opacity: 0.6
+
+	i
+		color: red
 
 	.btnHire
 		&:hover
@@ -139,10 +133,11 @@ p, ul, ol, li
 
 .works
 	@include pxRem(margin-top, 160px);
+
 	.work
 		background: black;
 		//@include pxRem(padding-bottom, 320px);
-		h1, h5
+		h2, h5, a
 			color: #fff;
 			font-style: italic;
 
@@ -151,6 +146,9 @@ p, ul, ol, li
 			@include pxRem(padding-bottom, 80px);
 
 	.reachout
+		a
+			color: #fff;
+
 		background-image: url('../img/background-reachout-lg.jpg');
 		background-size: cover;
 	.medcil
@@ -158,6 +156,9 @@ p, ul, ol, li
 		background-size: cover;
 	.zemedy
 		background-image: url('../img/background-zemedy-lg.jpg');
+		background-size: cover;
+	.bold
+		background-image: url('../img/background-bold-lg.jpg');
 		background-size: cover;
 
 .footer

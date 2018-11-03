@@ -1,14 +1,7 @@
 * {
   font-family: 'EB Garamond', serif;
-  color: #2B3B3B;
+  color: #000;
   font-weight: 100; }
-
-a {
-  color: #2B3B3B; }
-  a:hover {
-    color: #273F49;
-    text-decoration: none;
-    opacity: 0.5; }
 
 body {
   background: #EFF0E2; }
@@ -17,9 +10,10 @@ i {
   font-style: italic;
   font-family: 'EB Garamond', serif; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, a {
   font-family: 'EB Garamond', serif;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #000; }
 
 h1 {
   font-size: 118px;
@@ -50,19 +44,13 @@ p, ul, ol, li {
   font-size: 1.25rem;
   font-family: 'EB Garamond', serif; }
 
-.header {
-  padding-top: 40px;
-  padding-top: 2.5rem; }
-
 .navigation {
   background: #fff;
-  padding-bottom: 20px;
-  padding-bottom: 1.25rem;
-  padding-top: 40px;
-  padding-top: 2.5rem; }
-  .navigation a {
-    color: #857B38; }
-  .navigation h4, .navigation i {
+  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
+  padding-top: 10px;
+  padding-top: 0.625rem; }
+  .navigation h1, .navigation h4, .navigation i {
     color: #857B38;
     text-align: center;
     font-size: 30px;
@@ -84,57 +72,17 @@ p, ul, ol, li {
     opacity: 0.3; }
   .hero h3 {
     opacity: 0.6; }
+  .hero i {
+    border-bottom: 4px solid #729144; }
   .hero .btnHire:hover {
     opacity: 0.5; }
-
-.content .title {
-  margin-top: 160px;
-  margin-top: 10rem;
-  margin-bottom: 80px;
-  margin-bottom: 5rem; }
-
-.article {
-  padding-top: 160px;
-  padding-top: 10rem;
-  padding-bottom: 160px;
-  padding-bottom: 10rem;
-  border-bottom: 1px solid #ABA689; }
-  .article .title {
-    padding-bottom: 280px;
-    padding-bottom: 17.5rem; }
-
-.view-article .title {
-  background-color: #5B3169;
-  padding-bottom: 240px;
-  padding-bottom: 15rem; }
-  .view-article .title h1, .view-article .title h3, .view-article .title h4, .view-article .title i {
-    font-style: italic;
-    color: #fff; }
-
-.view-article .content {
-  padding-top: 240px;
-  padding-top: 15rem; }
-
-.view-article .copy {
-  padding-top: 160px;
-  padding-top: 10rem; }
-  .view-article .copy p {
-    font-size: 30px;
-    font-size: 1.875rem; }
-  .view-article .copy span {
-    font-size: 118px;
-    line-height: 0; }
-
-.view-article .section {
-  margin-bottom: 80px;
-  margin-bottom: 5rem; }
 
 .works {
   margin-top: 160px;
   margin-top: 10rem; }
   .works .work {
     background: black; }
-    .works .work h1, .works .work h5 {
+    .works .work h2, .works .work h5, .works .work a {
       color: #fff;
       font-style: italic; }
     .works .work .title {
@@ -145,54 +93,17 @@ p, ul, ol, li {
   .works .reachout {
     background-image: url("../img/background-reachout-lg.jpg");
     background-size: cover; }
+    .works .reachout a {
+      color: #fff; }
   .works .medcil {
     background-image: url("../img/background-medcil-lg.jpg");
     background-size: cover; }
   .works .zemedy {
     background-image: url("../img/background-zemedy-lg.jpg");
     background-size: cover; }
-
-.footer {
-  padding-top: 20px;
-  padding-top: 1.25rem;
-  padding-bottom: 20px;
-  padding-bottom: 1.25rem; }
-  .footer .social {
-    text-align: right; }
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .navigation .navbar-brand, .navigation h4, .navigation i {
-    font-size: 20px;
-    font-size: 1.25rem; }
-  .navigation .hire {
-    font-size: 14px;
-    font-size: 0.875rem; }
-  .hero {
-    padding-top: 120px;
-    padding-top: 7.5rem; }
-  h1 {
-    font-size: 59px;
-    font-size: 3.6875rem;
-    letter-spacing: -1.5px;
-    letter-spacing: -0.09375rem; }
-  h2 {
-    font-size: 41px;
-    font-size: 2.5625rem;
-    letter-spacing: -2.5px;
-    letter-spacing: -0.15625rem; }
-  h3 {
-    font-size: 29px;
-    font-size: 1.8125rem; }
-  h4 {
-    font-size: 20px;
-    font-size: 1.25rem; }
-  h5 {
-    font-size: 15px;
-    font-size: 0.9375rem; }
-  p, ul, ol, li {
-    font-size: 20px;
-    font-size: 1.25rem;
-    font-family: 'EB Garamond', serif; } }
+  .works .bold {
+    background-image: url("../img/background-bold-lg.jpg");
+    background-size: cover; }
 
 body {
   background-color: white; }
