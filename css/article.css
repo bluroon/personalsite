@@ -116,12 +116,21 @@ p, ul, ol, li {
 .copy p, .copy ol, .copy ul, .copy li {
   font-size: 21px;
   font-size: 1.3125rem;
-  line-height: 42px;
-  line-height: 2.625rem;
+  line-height: 30px;
+  line-height: 1.875rem;
   font-family: 'EB Garamond', serif; }
 
+h3 {
+  font-style: italic; }
+
+h5 {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  font-weight: bold;
+  font-style: italic; }
+
 body {
-  background-color: #DAE0D3; }
+  background-color: #fff; }
 
 .view-article .title {
   background-color: #5B3169;

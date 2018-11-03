@@ -4,12 +4,18 @@
 .copy
 	p, ol, ul, li
 		@include pxRem(font-size, 21px);
-		@include pxRem(line-height, 42px);
+		@include pxRem(line-height, 30px);
 		font-family: 'EB Garamond', serif;
+h3
+	font-style: italic
 
+h5
+	@include pxRem(font-size, 21px);
+	font-weight: bold
+	font-style: italic
 
 body
-	background-color: #DAE0D3;
+	background-color: #fff;
 
 //article page
 
