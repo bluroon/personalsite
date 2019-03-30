@@ -1,0 +1,64 @@
+// mixin createGrid
+//   display: grid
+//  
+ grid-template-columns: repeat(16, 1fr)
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+$color1: #171999
+  
+
+body
+  font-family: Roboto
+  font-size: 14px
+
+.header
+  //position: fixed
+  font-size: 2rem
+  height: 80px
+  padding: 0 80px
+  display: grid
+  grid-template-columns: repeat(16, 1fr)
+  //border-bottom: 1px solid
+  align-items: center
+  color: $color1
+  
+  .logo
+    grid-column: 1/9
+  .social
+    grid-column: 9/17
+    text-align: right
+    grid-template-columns: repeat(16, 1fr)
+
+
+.hero
+  // @include createGrid()
+  span.one
+    text-decoration: line-through
+
+  
+section
+  padding-top: 160px
+  display: grid
+  grid-template-columns: repeat(16, 1fr)
+  grid-template-rows: repeat(16, 1fr)
+  height: 100vh
+  grid-gap: 0px
+  
+  .title
+    font-size: 5.7142857143rem
+    padding: 0 5.7142857143rem
+    grid-column: 1/17
+    grid-row: 2/16
+    color: $color1
+    line-height: 101px
+    
+
+.current
+  background: #5C5ECC
+  .title
+    color: #9ED7FF
+
+.work
+  background: #FFDCCC
+  .title
+    color: #CC6E5C  
